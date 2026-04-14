@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "KréoCarte",
+    "slug": "kreocarte",
+    "owner": "kreocarte",
+    "version": "3.4.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#0699dd"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "notification": {
+      "icon": "./src/assets/notifications.png"
+    },
+    "scheme": "com.whaaat.gofid",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.whaaat.gofid",
+      "buildNumber": "3.4.0",
+      "supportsTablet": true,
+      "icon": "./src/assets/icon.png",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Cette permission est nécessaire pour scanner les codes QR.",
+        "NSUserTrackingUsageDescription": "Cet identifiant sera utilisé pour vous offrir une expérience personnalisée au sein de l'application.",
+        "NSLocationWhenInUseUsageDescription": "Cette permission est nécessaire pour afficher la carte des points de vente."
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyC8bH-vM2Fs65ydSAnRTc__l0tLnWWJ8B8",
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.whaaat.gofid",
+      "versionCode": 49,
+      "googleServicesFile": "./google-services.json",
+      "icon": "./src/assets/icon.png",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyC1TsVcecEVAD0IZE3HC52WZRAEYpdUHJM"
+        }
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "FOREGROUND_SERVICE",
+        "CAMERA"
+      ]
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "plugins": [
+      "expo-apple-authentication",
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "Cet identifiant sera utilisé pour vous offrir une expérience personnalisée au sein de l'application."
+        }
+      ],
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2a87cdec-90e3-4e17-93b6-e190dae6d744"
+      }
+    },
+    "newArchEnabled": false
+  }
+}

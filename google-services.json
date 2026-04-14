@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "645264247547",
+    "project_id": "kreocarte",
+    "storage_bucket": "kreocarte.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645264247547:android:0f9c682136aa100ba73e5e",
+        "android_client_info": {
+          "package_name": "com.whaaat.gofid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645264247547-3lo5jvar4rj01ftpi1tc5r6cmn5g7ac9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.whaaat.gofid",
+            "certificate_hash": "20e4ff92ffb4a4c3fafb13ba5d4a632f353f1d73"
+          }
+        },
+        {
+          "client_id": "645264247547-7kld5gds4t20njetdf80j0kic82pufu4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.whaaat.gofid",
+            "certificate_hash": "2b3961d76d0848b75f288f43d2526a5621b8270b"
+          }
+        },
+        {
+          "client_id": "645264247547-sfgv5a54tnkrlp7oks0hhr3qrvt38lt1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwchf1toQKuiOUw6NiDe9A7sNik09nsuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645264247547-sfgv5a54tnkrlp7oks0hhr3qrvt38lt1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "645264247547-u26h9dqlka5phqrjshislet52qt9hj8e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.whaaat.gofid"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
